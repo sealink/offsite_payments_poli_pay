@@ -17,5 +17,5 @@ Gem::Specification.new do |s|
   s.files = Dir['CHANGELOG', 'README.md', 'MIT-LICENSE', 'lib/**/*']
   s.require_path = 'lib'
 
-  s.add_development_dependency('offsite_payments')
+  s.add_dependency('offsite_payments')
 end
