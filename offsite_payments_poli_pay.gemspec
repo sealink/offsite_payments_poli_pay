@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 Gem::Specification.new do |s|
   s.platform     = Gem::Platform::RUBY
   s.name         = 'offsite_payments_poli_pay'
-  s.version      = '1.0.1'
+  s.version      = '1.0.0'
   s.date         = '2018-03-05'
   s.summary      = 'PoliPay integration for the activemerchant offsite_payments gem.'
   s.description  = 'This gem extends the activemerchant offsite_payments gem ' \
