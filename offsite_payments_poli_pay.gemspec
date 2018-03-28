@@ -19,4 +19,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
 
   s.add_dependency('offsite_payments')
+
+  spec.add_development_dependency 'bundler', '~> 1.7'
+  spec.add_development_dependency 'rake'
 end
