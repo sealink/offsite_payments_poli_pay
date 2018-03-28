@@ -20,6 +20,6 @@ Gem::Specification.new do |s|
 
   s.add_dependency('offsite_payments')
 
-  spec.add_development_dependency 'bundler', '~> 1.7'
-  spec.add_development_dependency 'rake'
+  s.add_development_dependency 'bundler', '~> 1.7'
+  s.add_development_dependency 'rake'
 end
